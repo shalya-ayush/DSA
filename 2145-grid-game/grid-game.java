@@ -3,6 +3,9 @@ class Solution {
         
         int row = grid.length;
         int col = grid[0].length;
+        if (col <2){
+            return 0;
+        }
 
         long topSum = 0;
         long bottomSum = 0;

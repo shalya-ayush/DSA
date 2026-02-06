@@ -22,6 +22,7 @@ class Solution:
                     res.append([nums[i], nums[j], nums[k]])
 
                     j +=1
+                    k -=1
 
                     while nums[j] == nums[j-1] and j<k:
                         j += 1
